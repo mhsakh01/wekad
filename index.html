@@ -1,55 +1,87 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>پروژه wekad</title>
-
-    <style>
-        body {
-            font-family: Vazirmatn, sans-serif;
-            background: #f2f2f2;
-            margin: 0;
-            padding: 0;
-            direction: rtl;
-        }
-        
-        header {
-            background: #2c3e50;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-        .container {
-            max-width: 900px;
-            margin: 40px auto;
-            background:#fff;
-            padding: 25px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        footer {
-            text-align: center;
-            padding: 15px;
-            font-size: 14px;
-            color: #777;
-        }
-    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wekad</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
+    <!-- ===== HEADER ===== -->
     <header>
-        <h1>پروژه wekad</h1>
+        <div class="logo">
+            <div class="triangle"></div>
+            <h2>Wekad</h2>
+        </div>
+
+        <nav>
+            <a class="active" href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Portfolio</a>
+            <a href="about.html">About</a>
+            <a href="#">Contact</a>
+        </nav>
     </header>
 
-    <div class="container">
-        <h2>به صفحه اصلی خوش آمدید</h2>
-        <p>این یک قالب ساده برای شروع پروژه شماست.</p>
-    </div>
-<h1>hiii</h1>
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero">
+        <div class="big-triangle"></div>
+        <div class="big-triangle2"></div>
+        <h1>Crafting Digital<br>Experiences</h1>
+        <p>
+            We specialize in creating stunning, user-friendly websites
+            tailored to your needs. From concept to launch, we bring
+            your vision to life.
+        </p>
+    </section>
+
+    <!-- ===== SERVICES SECTION ===== -->
+    <section class="services">
+        
+        <h2>Our Services</h2>
+        <p>
+            We specialize in creating stunning, user-friendly websites tailored to
+            your needs. From concept to launch, we bring your vision to life.
+        </p>
+
+        <div class="service-container">
+
+            <div class="service-box">
+                <div class="icon-triangle"></div>
+                <h3>Responsive Design</h3>
+                <p>
+                    We create stunning websites optimized for all devices, with
+                    fast performance and beautiful layouts.
+                </p>
+            </div>
+
+            <div class="service-box">
+                <div class="icon-triangle"></div>
+                <h3>E-commerce Solutions</h3>
+                <p>
+                    We build complete and secure online stores with modern UI/UX
+                    and smooth shopping experience.
+                </p>
+            </div>
+
+            <div class="service-box">
+                <div class="icon-triangle"></div>
+                <h3>SEO Optimization</h3>
+                <p>
+                    We optimize websites to rank higher on search engines and
+                    attract organic traffic.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
     <footer>
-        © 2025 - پروژه wekad
+        <p>© 2023 Vikad. All rights reserved.</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
